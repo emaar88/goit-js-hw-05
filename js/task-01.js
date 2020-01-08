@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 'use strict';
 const Account = function({ login = null, email = null }) {
   this.login = login;
@@ -26,32 +25,3 @@ const poly = new Account({
 });
 
 poly.getInfo(); // Login: Poly, Email: poly@mail.com
-=======
-'use strict';
-const Account = function({ login = null, email = null }) {
-  this.login = login;
-  this.email = email;
-  //   this.getInfo = function() {
-  //     console.log(`Login: ${this.login}, Email:${this.email}`);
-  //   };
-};
-Account.prototype.getInfo = function() {
-  console.log(`Login: ${this.login}, Email:${this.email}`);
-};
-
-console.log(Account.prototype.getInfo); // function
-
-const mango = new Account({
-  login: 'Mangozedog',
-  email: 'mango@dog.woof',
-});
-
-mango.getInfo(); // Login: Mangozedog, Email: mango@dog.woof
-
-const poly = new Account({
-  login: 'Poly',
-  email: 'poly@mail.com',
-});
-
-poly.getInfo(); // Login: Poly, Email: poly@mail.com
->>>>>>> 625353365b1e8b7beec2802504c399c62025208a
