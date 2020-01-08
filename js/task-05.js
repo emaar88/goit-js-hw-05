@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 'use strict';
 class Car {
   /*
