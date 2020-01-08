@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 'use strict';
 class StringBuilder
 {
@@ -33,17 +32,4 @@ console.log(builder.value); // '^.^'
 
 builder.pad('=');
 console.log(builder.value); // '=^.^='
-=======
-'use strict';
 
-const builder = new StringBuilder('.');
-
-builder.append('^');
-console.log(builder.value); // '.^'
-
-builder.prepend('^');
-console.log(builder.value); // '^.^'
-
-builder.pad('=');
-console.log(builder.value); // '=^.^='
->>>>>>> 625353365b1e8b7beec2802504c399c62025208a
