@@ -1,5 +1,5 @@
 'use strict';
-const Account = function({ login = null, email = null }) {
+const Account = function({ login, email}) {
   this.login = login;
   this.email = email;
   //   this.getInfo = function() {
